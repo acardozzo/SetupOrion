@@ -4539,7 +4539,7 @@ services:
 ## --------------------------- ORION --------------------------- ##
 
   portainer:
-    image: portainer/portainer-ce:latest
+    image: portainer/portainer-ce:sts
     command: -H tcp://tasks.agent:9001 --tlsskipverify
 
     volumes:
